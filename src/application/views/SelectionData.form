@@ -74,7 +74,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                           <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="115" max="32767" attributes="0"/>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
                           <Component id="buttonDelete" min="-2" pref="97" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
@@ -187,7 +187,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
-                <Property name="text" type="java.lang.String" value="- Ranking diurutkan berdasarkan hasil penilaian terbesar sampai terkecil calon pelamar"/>
+                <Property name="text" type="java.lang.String" value="- Ranking diurutkan berdasarkan hasil penilaian terbesar sampai terkecil calon karyawan tetap"/>
               </Properties>
             </Component>
           </SubComponents>
