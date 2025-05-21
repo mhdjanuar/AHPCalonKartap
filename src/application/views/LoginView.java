@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class LoginView extends javax.swing.JFrame {
     private UserDao userDao;

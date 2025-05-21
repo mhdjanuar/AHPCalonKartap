@@ -18,7 +18,7 @@ import java.util.List;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class CriteriaDaoImpl implements CriteriaDao {
     private final Connection dbConnection;

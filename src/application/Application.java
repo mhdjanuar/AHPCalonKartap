@@ -10,7 +10,7 @@ import application.views.MenuView;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class Application {
 

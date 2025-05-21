@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class DatabaseUtil {
 

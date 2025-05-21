@@ -13,7 +13,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class RegisterView extends javax.swing.JFrame {
     private UserDao userDao;

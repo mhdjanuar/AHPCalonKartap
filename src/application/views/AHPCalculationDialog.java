@@ -25,7 +25,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author Yusuf Eko Anggoro
+ * @author mahasiswa unindra 
  */
 public class AHPCalculationDialog extends javax.swing.JDialog {
 

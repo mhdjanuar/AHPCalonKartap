@@ -15,7 +15,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class UserDaoImpl implements UserDao {
     private final Connection dbConnection;

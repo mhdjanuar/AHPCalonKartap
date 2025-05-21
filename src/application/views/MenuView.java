@@ -26,7 +26,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class MenuView extends javax.swing.JFrame {
 

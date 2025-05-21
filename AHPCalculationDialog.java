@@ -22,7 +22,7 @@
 
 // /**
 //  *
-//  * @author Yusuf Eko Anggoro
+//  * @author mahasiswa unindra 
 //  */
 // public class AHPCalculationDialog extends javax.swing.JDialog {
 //     protected AHPCalculation ahpCalculation = new AHPCalculation();

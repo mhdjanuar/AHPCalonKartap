@@ -6,7 +6,7 @@ package application.models;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class CriteriaModel {
     private String code;

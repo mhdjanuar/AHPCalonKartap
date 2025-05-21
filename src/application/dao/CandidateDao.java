@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */public interface CandidateDao {
     
     public int insertOne(CandidateModel candidate);

@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public final class AHPCalculation {
     private int n;

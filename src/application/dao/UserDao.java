@@ -8,7 +8,7 @@ import application.models.UserModel;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public interface UserDao {
     

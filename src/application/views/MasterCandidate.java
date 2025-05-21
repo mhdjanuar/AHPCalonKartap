@@ -23,7 +23,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class MasterCandidate extends javax.swing.JPanel {
     private final CandidateDao candidateDao;

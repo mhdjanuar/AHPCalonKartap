@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class SelectionDaoImpl implements SelectionDao {
     private final Connection dbConnection;

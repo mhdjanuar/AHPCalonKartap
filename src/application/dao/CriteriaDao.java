@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public interface CriteriaDao {
     public int insertOne(CriteriaModel criteria);

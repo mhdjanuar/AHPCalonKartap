@@ -8,7 +8,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class Config {
     

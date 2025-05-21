@@ -19,7 +19,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class SelectionData extends javax.swing.JPanel {
     private final SelectionDao selectionDao;

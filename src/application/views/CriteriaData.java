@@ -22,7 +22,7 @@ import java.awt.Color;
 
 /**
  *
- * @author yusuf
+ * @author mahasiswa unindra 
  */
 public class CriteriaData extends javax.swing.JPanel {
     private final CriteriaDao criteriaDao;
