@@ -295,14 +295,14 @@
 				<textElement textAlignment="Left" markup="none">
 					<font fontName="Times New Roman" size="10" isItalic="false"/>
 				</textElement>
-				<text><![CDATA[ditentukan dari hasil penilaian calon pelamar nilai terbesar sampai terkecil.]]></text>
+				<text><![CDATA[ditentukan dari hasil penilaian calon karyawan tetap nilai terbesar sampai terkecil.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="64" y="116" width="491" height="15" uuid="36c6a319-9abb-4c26-9033-8c49384d7639"/>
 				<textElement textAlignment="Left" markup="none">
 					<font fontName="Times New Roman" size="10" isItalic="false"/>
 				</textElement>
-				<text><![CDATA[tertinggi merupakan calon pelamar potensi terbaik untuk diterima sebagai karyawan baru.]]></text>
+				<text><![CDATA[tertinggi merupakan calon karyawan tetap potensi terbaik untuk diterima sebagai karyawan baru.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="23" y="116" width="144" height="15" uuid="5ac26a25-715d-4fc6-9c43-5fe17a660121"/>

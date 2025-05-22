@@ -259,7 +259,7 @@ public class MasterCandidate extends javax.swing.JPanel {
 
     private void buttonAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonAddActionPerformed
         // TODO add your handling code here:
-        addCandidateDialog.setTitleFrame("Tambah Data Calon Pelamar");
+        addCandidateDialog.setTitleFrame("Tambah Data Calon Karyawan Tetap");
         addCandidateDialog.clearForm();
         addCandidateDialog.show();
         loadTable();
@@ -268,7 +268,7 @@ public class MasterCandidate extends javax.swing.JPanel {
     private void buttonEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEditActionPerformed
         // TODO add your handling code here:
         if(id != null){
-            addCandidateDialog.setTitleFrame("Ubah Data Calon Pelamar");
+            addCandidateDialog.setTitleFrame("Ubah Data Calon Karyawan Tetap");
             addCandidateDialog.show();
             loadTable();
             id = null;

@@ -342,7 +342,7 @@ public class CriteriaData extends javax.swing.JPanel {
             int n=1;
             
             if(comboBoxCriteria1.getSelectedIndex() != 0 && comboBoxCriteria2.getSelectedIndex() != 0
-            && comboBoxCriteria3.getSelectedIndex() != 0 && comboBoxCriteria4.getSelectedIndex() != 0 && code == null){
+            && comboBoxCriteria3.getSelectedIndex() != 0 && comboBoxCriteria4.getSelectedIndex() != 0){
                 do{
                     CriteriaModel newCriteria = new CriteriaModel();
                     newCriteria.setCode("K"+n);
@@ -374,7 +374,17 @@ public class CriteriaData extends javax.swing.JPanel {
             }
         }
         catch(Exception e){
-            JOptionPane.showMessageDialog(null, "Data Gagal Disimpan "+e);
+            if (e.getCause() instanceof java.sql.SQLIntegrityConstraintViolationException) {
+                JOptionPane.showMessageDialog(null, 
+                    "Gagal menyimpan data: Kode kriteria sudah digunakan.\nSilakan ubah kode atau data kriteria.",
+                    "Duplikasi Data",
+                    JOptionPane.WARNING_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(null, 
+                    "Terjadi kesalahan: " + e.getMessage(),
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE);
+            }
         }
     }//GEN-LAST:event_buttonSaveActionPerformed
 
@@ -423,7 +433,7 @@ public class CriteriaData extends javax.swing.JPanel {
     private void buttonDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonDeleteActionPerformed
         // TODO add your handling code here:
         try{
-            int ok = JOptionPane.showConfirmDialog(null,"hapus","Konfirmasi Dialog",JOptionPane.YES_NO_CANCEL_OPTION);
+            int ok = JOptionPane.showConfirmDialog(null,"hapus","Konfirmasi Dialog",JOptionPane.YES_NO_OPTION);
             if(ok == 0){
                 criteriaDao.delete(ok);
                 JOptionPane.showMessageDialog(null, "Data Berhasil DiHapus ");

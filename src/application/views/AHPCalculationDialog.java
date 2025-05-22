@@ -566,7 +566,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         judul.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         judul.setForeground(new java.awt.Color(255, 255, 255));
         judul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        judul.setText("Perhitungan Hasil Penilaian Calon Pelamar Menggunakan Metode AHP");
+        judul.setText("Perhitungan Hasil Penilaian Calon Karyawan Tetap Menggunakan Metode AHP");
         judul.setOpaque(true);
 
         jScrollPane1.setMinimumSize(new java.awt.Dimension(900, 900));
@@ -1633,6 +1633,11 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
     //simpan data
     private void SimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SimpanActionPerformed
         // TODO add your handling code here:
+        if (this.alternativeWeightModel == null || this.alternativeWeightModel.isEmpty()) {
+            JOptionPane.showMessageDialog(null, "Data bobot alternatif belum tersedia. Silakan lakukan perhitungan terlebih dahulu.");
+            return;
+        }
+        
         try {
             for (AlternativeWeightModel item : this.alternativeWeightModel) {
                 SelectionModel newData = new SelectionModel();

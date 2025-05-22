@@ -310,7 +310,7 @@ public class MenuView extends javax.swing.JFrame {
         logout.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         logout.setForeground(new java.awt.Color(255, 255, 255));
         logout.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        logout.setText("  Log Out");
+        logout.setText("Keluar");
         logout.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         logout.setOpaque(true);
         logout.addMouseListener(new java.awt.event.MouseAdapter() {

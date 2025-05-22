@@ -142,7 +142,7 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         judul.setOpaque(true);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Penilaian Bobot Calon Pelamar"));
+        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Penilaian Bobot Calon Karyawan Tetap"));
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel24.setText("Nilai Kepemimpinan");
@@ -198,7 +198,7 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         );
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Biodata Calon Pelamar"));
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Biodata Calon Karyawan Tetap"));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel6.setText("ID");
