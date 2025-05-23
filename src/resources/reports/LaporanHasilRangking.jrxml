@@ -163,7 +163,7 @@ on s.user_id = c.id ORDER BY s.score DESC]]>
 				<textElement textAlignment="Center">
 					<font size="20" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Laporan Data Hasil Rangking]]></text>
+				<text><![CDATA[Laporan Data Hasil Ranking]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
@@ -192,7 +192,7 @@ on s.user_id = c.id ORDER BY s.score DESC]]>
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<text><![CDATA[NO RANGKING]]></text>
+								<text><![CDATA[NO RANKING]]></text>
 							</staticText>
 						</jr:tableHeader>
 						<jr:detailCell style="Table_TD" height="30">
