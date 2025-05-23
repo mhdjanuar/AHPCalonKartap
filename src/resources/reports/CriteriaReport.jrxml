@@ -35,7 +35,7 @@
 		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQL"/>
 		<queryString language="SQL">
-			<![CDATA[select * from  ahp_bahan_terbaik.criteria]]>
+			<![CDATA[select * from  ahp_calon_pelamar.criteria]]>
 		</queryString>
 		<field name="code" class="java.lang.String">
 			<property name="com.jaspersoft.studio.field.name" value="code"/>
@@ -55,7 +55,7 @@
 	</subDataset>
 	<parameter name="PATH" class="java.lang.String"/>
 	<queryString language="SQL">
-		<![CDATA[select * from  ahp_bahan_terbaik.criteria limit 1]]>
+		<![CDATA[select * from  ahp_calon_pelamar.criteria limit 1]]>
 	</queryString>
 	<field name="code" class="java.lang.String">
 		<property name="com.jaspersoft.studio.field.name" value="code"/>
