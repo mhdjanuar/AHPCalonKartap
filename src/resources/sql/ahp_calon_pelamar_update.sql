@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2025 at 07:32 PM
+-- Generation Time: May 23, 2025 at 10:08 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -90,11 +90,11 @@ CREATE TABLE `selections` (
 --
 
 INSERT INTO `selections` (`id`, `user_id`, `score`) VALUES
-(1, 1, 0.21),
-(2, 2, 0.20),
-(3, 3, 0.19),
-(4, 4, 0.18),
-(5, 5, 0.22);
+(41, 1, 0.21),
+(42, 2, 0.20),
+(43, 3, 0.19),
+(44, 4, 0.18),
+(45, 5, 0.22);
 
 -- --------------------------------------------------------
 
@@ -139,6 +139,12 @@ ALTER TABLE `candidates`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `criteria`
+--
+ALTER TABLE `criteria`
+  ADD UNIQUE KEY `unique_code` (`code`);
+
+--
 -- Indexes for table `selections`
 --
 ALTER TABLE `selections`
@@ -168,7 +174,7 @@ ALTER TABLE `candidates`
 -- AUTO_INCREMENT for table `selections`
 --
 ALTER TABLE `selections`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `users`
