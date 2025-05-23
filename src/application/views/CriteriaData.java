@@ -131,7 +131,7 @@ public class CriteriaData extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tableCriteria);
 
-        jLabel1.setText("Catatan : Edit, klik data pada tabel terlebih dahulu");
+        jLabel1.setText("Catatan : Ubah atau Hapus, klik data pada tabel terlebih dahulu");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -433,13 +433,16 @@ public class CriteriaData extends javax.swing.JPanel {
     private void buttonDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonDeleteActionPerformed
         // TODO add your handling code here:
         try{
-            int ok = JOptionPane.showConfirmDialog(null,"hapus","Konfirmasi Dialog",JOptionPane.YES_NO_OPTION);
-            if(ok == 0){
-                criteriaDao.delete(ok);
-                JOptionPane.showMessageDialog(null, "Data Berhasil DiHapus ");
-                loadTable();
-                clearForm();
-            }
+            if ( code != null ) {
+                int ok = JOptionPane.showConfirmDialog(null,"hapus","Konfirmasi Dialog",JOptionPane.YES_NO_OPTION);
+                if(ok == 0){
+                    criteriaDao.delete(ok);
+                    JOptionPane.showMessageDialog(null, "Data Berhasil DiHapus ");
+                    loadTable();
+                    clearForm();
+                    this.code = null;
+                }
+            }  
         }catch(Exception e){
             JOptionPane.showMessageDialog(null,"Data Gagal DiHapus " + e);
         }

@@ -462,7 +462,7 @@ public class MenuView extends javax.swing.JFrame {
     private void laporanCalonPelamarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanCalonPelamarMouseClicked
         // TODO add your handling code here:
         try{
-            String templateName = "CandidateDataReport.jrxml";
+            String templateName = "CandidateReport.jrxml";
             InputStream reportStream = MenuView.class.getResourceAsStream("/resources/reports/" + templateName);
             JasperDesign jd = JRXmlLoader.load(reportStream);
             
@@ -470,7 +470,7 @@ public class MenuView extends javax.swing.JFrame {
             JasperReport jr = JasperCompileManager.compileReport(jd);
             
             HashMap parameter = new HashMap();
-            parameter.put("PATH_IMG","resources/images/");
+            parameter.put("PATH","resources/images/");
 
 
             JasperPrint jp = JasperFillManager.fillReport(jr,parameter, dbConnection);
@@ -496,7 +496,7 @@ public class MenuView extends javax.swing.JFrame {
     private void laporanPrioritasKriteriaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanPrioritasKriteriaMouseClicked
         // TODO add your handling code here:
         try{
-            String templateName = "CriteriaDataReport.jrxml";
+            String templateName = "CriteriaReport.jrxml";
             InputStream reportStream = MenuView.class.getResourceAsStream("/resources/reports/" + templateName);
             JasperDesign jd = JRXmlLoader.load(reportStream);
             
@@ -504,7 +504,7 @@ public class MenuView extends javax.swing.JFrame {
             JasperReport jr = JasperCompileManager.compileReport(jd);
             
             HashMap parameter = new HashMap();
-            parameter.put("PATH_IMG","resources/images/");
+            parameter.put("PATH","resources/images/");
 //            Map<String, Object> params = new HashMap<>();
 //            
 //            BufferedImage image = ImageIO.read(getClass().getResource("/resources/templates/cherry.jpg"));
@@ -533,7 +533,7 @@ public class MenuView extends javax.swing.JFrame {
     private void laporanHasilSeleksiMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksiMouseClicked
         // TODO add your handling code here:
         try{
-            String templateName = "SelectionDataReport.jrxml";
+            String templateName = "LaporanHasilRangking.jrxml";
             InputStream reportStream = MenuView.class.getResourceAsStream("/resources/reports/" + templateName);
             JasperDesign jd = JRXmlLoader.load(reportStream);
             
@@ -541,7 +541,7 @@ public class MenuView extends javax.swing.JFrame {
             JasperReport jr = JasperCompileManager.compileReport(jd);
             
             HashMap parameter = new HashMap();
-            parameter.put("PATH_IMG","resources/images/");
+            parameter.put("PATH","resources/images/");
 //            Map<String, Object> params = new HashMap<>();
 //            
 //            BufferedImage image = ImageIO.read(getClass().getResource("/resources/templates/cherry.jpg"));
