@@ -129,9 +129,9 @@ on s.user_id = c.id ORDER BY s.score DESC]]>
 	<pageHeader>
 		<band height="80" splitType="Stretch">
 			<frame>
-				<reportElement style="Table_TD" mode="Opaque" x="-20" y="-20" width="595" height="100" forecolor="#FFFCFC" backcolor="#A88C3B" uuid="fd46e0e1-c9ed-4757-8397-cf23cce88f70"/>
+				<reportElement style="Table_TD" mode="Opaque" x="-20" y="-20" width="595" height="100" forecolor="#FFFCFC" backcolor="#A88C3B" uuid="ceb0c639-d790-4784-8344-4950ef69ff88"/>
 				<staticText>
-					<reportElement x="110" y="10" width="350" height="30" forecolor="#FCFAFA" uuid="c4597c6d-2e45-4bce-b4d0-9a9fca9535e3"/>
+					<reportElement x="110" y="10" width="350" height="30" forecolor="#FCFAFA" uuid="5a12aa99-6c42-400d-8229-3c2fffe5a011"/>
 					<textElement textAlignment="Center">
 						<font fontName="Times New Roman" size="20" isBold="true"/>
 						<paragraph lineSpacingSize="1.0"/>
@@ -139,19 +139,19 @@ on s.user_id = c.id ORDER BY s.score DESC]]>
 					<text><![CDATA[PT Lima Bintang]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="142" y="40" width="310" height="20" forecolor="#FFFAFA" uuid="5c7e8b17-9109-48a9-88bb-0c6af95d7bf0"/>
+					<reportElement x="142" y="40" width="350" height="20" forecolor="#FFFAFA" uuid="5bd79f7a-72f1-4733-808c-c0db3d46fe9e"/>
 					<textElement>
 						<font fontName="Times New Roman"/>
 					</textElement>
-					<text><![CDATA[Jl. Raya Bogor Cililitan No.20, RT.1/RW.15, Cililitan, Kec. Kramat jati]]></text>
+					<text><![CDATA[Grand Centro Bintaro, Jl. Bintaro Permai No. B21, RT.5/RW.3, Pesanggrahan]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="153" y="60" width="267" height="20" forecolor="#FCFAFA" uuid="1b5bd5f6-ab25-4f87-b826-944ac6d23767"/>
-					<text><![CDATA[Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640]]></text>
+					<reportElement x="170" y="60" width="267" height="20" forecolor="#FCFAFA" uuid="0ad0aacb-2522-4c4b-ab42-774d80e67304"/>
+					<text><![CDATA[Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12320]]></text>
 				</staticText>
 				<image>
 					<reportElement x="40" y="25" width="50" height="50" uuid="23d5bb3f-e081-4190-9f1d-1a95495589ee"/>
-                                        <imageExpression><![CDATA[$P{PATH}+"loremipsum-resize.png"]]></imageExpression>
+                                        <imageExpression><![CDATA[$P{PATH}+"limabintang-removebg-200.png"]]></imageExpression>
 				</image>
 			</frame>
 		</band>

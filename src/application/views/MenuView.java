@@ -355,7 +355,7 @@ public class MenuView extends javax.swing.JFrame {
         judul1.setBackground(new java.awt.Color(245, 247, 250));
         judul1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         judul1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        judul1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/loremipsum-resize.png"))); // NOI18N
+        judul1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/limabintang-removebg-125.png"))); // NOI18N
         judul1.setOpaque(true);
 
         Pane.setBackground(new java.awt.Color(250, 250, 250));
@@ -390,8 +390,8 @@ public class MenuView extends javax.swing.JFrame {
                     .addComponent(judul2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, 0)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Pane, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)
-                    .addComponent(Menu, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)))
+                    .addComponent(Pane, javax.swing.GroupLayout.DEFAULT_SIZE, 645, Short.MAX_VALUE)
+                    .addComponent(Menu, javax.swing.GroupLayout.DEFAULT_SIZE, 645, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
