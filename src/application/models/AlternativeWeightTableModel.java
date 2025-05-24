@@ -23,7 +23,7 @@ public class AlternativeWeightTableModel extends AbstractTableModel {
             case 0:
                 return "ID";
             case 1:
-                return "Nama Calon Pelamar";
+                return "Nama Karyawan";
             case 2:
                 return "Nilai Kepemimpinan";
             case 3:
