@@ -187,7 +187,7 @@ public class MasterCandidate extends javax.swing.JPanel {
             }
         });
 
-        note.setText("Catatan : Edit/Hapus data calon pelamar, klik data pada tabel terlebih dahulu");
+        note.setText("Catatan : Edit/Hapus data calon karyawan tetap, klik data pada tabel terlebih dahulu");
 
         javax.swing.GroupLayout PanelLayout = new javax.swing.GroupLayout(Panel);
         Panel.setLayout(PanelLayout);
