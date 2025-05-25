@@ -126,7 +126,7 @@ public class RegisterView extends javax.swing.JFrame {
         jLabel10.setText("Aplikasi Sistem Pendukung Keputusan");
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel11.setText("Penerimaan Karyawan");
+        jLabel11.setText("Penerimaan Karyawan Tetap");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -142,7 +142,7 @@ public class RegisterView extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel11)
-                        .addGap(59, 59, 59))))
+                        .addGap(40, 40, 40))))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
