@@ -23,12 +23,10 @@ public class SelectionTableModel extends AbstractTableModel {
             case 0:
                 return "ID";
             case 1:
-                return "Ranking";
-            case 2:
                 return "Nama Karyawan";
-            case 3:
+            case 2:
                 return "No. HP";
-            case 4:
+            case 3:
                 return "Hasil Penilaian";
             default:
                 return null;
@@ -37,7 +35,7 @@ public class SelectionTableModel extends AbstractTableModel {
 
     @Override
     public int getColumnCount() {
-        return 5;
+        return 4;
     }
 
     @Override
@@ -46,12 +44,10 @@ public class SelectionTableModel extends AbstractTableModel {
             case 0:
                 return selections.get(row).getId();
             case 1:
-                return selections.get(row).getRanking();
-            case 2:
                 return selections.get(row).getName();
-            case 3:
+            case 2:
                 return selections.get(row).getPhoneNumber();
-            case 4:
+            case 3:
                 return df2.format(selections.get(row).getScore());
             default:
                 return null;
